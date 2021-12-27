@@ -9,9 +9,7 @@
 
 body{
     font-size: 100%;
-    background: rgb(190, 190, 190);
-  
-}
+    }
 
 .header{
     display: flex;
@@ -19,34 +17,28 @@ body{
     align-items: center;
     justify-content: space-around;
     padding: 24px;
+    height: 100px;
 } 
 
 .header-logo{
-    height: 130px;
+    height: 100px;
 }
 
 .navbar{
     display: flex;
-     
+     gap: 32px;
 }
 
+.header-item{
+    font-family: 'Asap Condensed', sans-serif;
+    font-weight: 400px;
+    font-size: 22px;
+    color: black;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.content{
+      border-bottom: 48px;
+}
 
 
 
