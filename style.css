@@ -40,7 +40,46 @@ body{
       border-bottom: 48px;
 }
 
+.main-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;    
+}
 
+.main-content .post{
+    height: 400px;
+}
+
+.main-content-text{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.main-content-text-title{
+    font-family: 'Architects Daughter', cursive;
+    font-weight: 700;
+    font-size: 64px;    
+    color: red;
+}
+
+.main-content-text-subtitle{
+    font-family: 'Asap Condensed', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.button{
+    border: none;
+    border-radius: 55px;
+    background: rgb(187, 0, 0);
+    color: white;
+    font-size: 25px;
+    width: 290px;
+    height: 50px;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'Architects Daughter', cursive;
+}
 
 
 .footer-logo{
