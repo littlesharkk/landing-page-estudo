@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Asap+Condensed:ital,wght@1,400;1,500&display=swap');
+
+*{
+    margin: 0;
+    padding: 10px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-size: 100%;
+    background: rgb(190, 190, 190);
+  
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+} 
+
+.header-logo{
+    height: 130px;
+}
+
+.navbar{
+    display: flex;
+     
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer-logo{
+    height: 250px;
+}
